@@ -1,7 +1,10 @@
 .App {
   text-align: center;
 }
-
+.App p {
+  font-weight: 600;
+  line-height: 150%;
+}
 .banner {
   width: 95%;
   max-width: 1180px;
