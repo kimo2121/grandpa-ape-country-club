@@ -1,0 +1,86 @@
+.roadmap {
+  width: 1180px;
+  margin: 40px auto;
+}
+.roadmap > p {
+  text-align: left;
+  font-weight: 500;
+}
+.roadmap > h1 {
+  text-align: left;
+}
+.each-road {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+.roads {
+  margin-right: 50px;
+}
+.each-road p,
+.each-road h4 {
+  margin: 0;
+}
+.each-road p {
+  font-weight: 500;
+}
+.each-road h4 {
+  margin-right: 40px;
+}
+.roads {
+  width: 715px;
+  text-align: left;
+}
+.roads-container {
+  justify-content: flex-start;
+  display: flex;
+  align-items: center;
+  margin-top: 70px;
+}
+.roads-container img {
+  width: 383px;
+  border-radius: 10px;
+  height: 383px;
+}
+@media screen and (max-width: 1200px) {
+  .roadmap {
+    width: 950px;
+  }
+  .roads {
+    width: 450px;
+  }
+}
+@media screen and (max-width: 990px) {
+  .roadmap {
+    width: 750px;
+  }
+  .roads {
+    width: 450px;
+    margin-right: 20px;
+  }
+  .roads-container img {
+    width: 250px;
+    height: 250px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .roadmap {
+    width: 95%;
+    flex-direction: column;
+  }
+  .roads-container {
+    width: 100%;
+    flex-direction: column;
+  }
+  .roads {
+    width: 100%;
+    margin-right: 0;
+  }
+  .roads-container img {
+    width: 100%;
+    height: 100%;
+  }
+  .welcome-right {
+    width: 100%;
+  }
+}

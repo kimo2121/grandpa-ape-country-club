@@ -1,0 +1,48 @@
+.mint-component {
+  max-width: 1180px;
+  margin: 50px auto;
+  width: 95%;
+  box-sizing: border-box;
+  height: 95px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px;
+  border-radius: 10px;
+  background-color: white;
+}
+.mint-component button {
+  font-family: "Roboto", Sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: capitalize;
+  fill: #000000;
+  color: #000000;
+  border: none;
+  background-color: #83d8fc;
+  border-radius: 10px 10px 10px 10px;
+  padding: 20px 60px 20px 60px;
+  cursor: pointer;
+}
+.scan-address {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  margin: 20px auto;
+}
+.scan-address a {
+  color: #caa67a;
+  text-decoration: none;
+  margin-left: 10px;
+}
+.scan-address a:hover {
+  color: #977039;
+}
+@media screen and (max-width: 576px) {
+  .mint-component {
+    flex-direction: column;
+    height: fit-content;
+    padding: 20px;
+  }
+}

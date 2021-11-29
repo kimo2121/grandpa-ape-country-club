@@ -1,0 +1,11 @@
+.App {
+  text-align: center;
+}
+
+.banner {
+  width: 95%;
+  max-width: 1180px;
+  max-height: 721px;
+  height: 95%;
+  object-fit: contain;
+}

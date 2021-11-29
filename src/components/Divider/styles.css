@@ -1,0 +1,13 @@
+.divider,
+.half {
+  /* max-width: 1180px; */
+  width: 100%;
+  margin: 0 auto;
+  height: 2px;
+  background-color: white;
+}
+
+.half {
+  width: 95%;
+  max-width: 1180px;
+}
